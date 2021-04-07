@@ -24,12 +24,11 @@
     "webpack-cli": "^3.3.10"
   },
   "scripts": {
-    "build": "webpack --progress",
-    "lint": "eslint src --fix"
+    "build": "webpack --progress"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "eslint src --fix"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
