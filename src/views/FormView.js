@@ -11,10 +11,6 @@ export default class FormView extends View {
     return this;
   }
 
-  test() {
-    const test = "test4";
-  }
-
   showResetBtn(show = true) {
     this._resetEl.style.display = show ? "block" : "none";
   }
