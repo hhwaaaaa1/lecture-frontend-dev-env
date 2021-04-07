@@ -12,7 +12,7 @@ export default class FormView extends View {
   }
 
   test() {
-    const test = "test2";
+    const test = "test3";
   }
 
   showResetBtn(show = true) {
